@@ -1,0 +1,88 @@
+/* Header */
+.header {
+  width: 100%;
+  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+  background-color: var(--beige-alt);
+}
+
+.nav {
+  padding: 2.6rem;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-right {
+  display: flex;
+}
+
+.logo {
+  cursor: pointer;
+  color: #616161;
+  font: normal normal 900 24px/30px "Maven Pro";
+}
+
+.nav-search {
+  display: flex;
+  margin-left: 1.4rem;
+  border-bottom: 1px solid #b4a37c;
+}
+
+.nav-search input {
+  outline: 0;
+  border: none;
+  border-radius: 0;
+  color: var(--brown-alt);
+  background: transparent;
+  font: normal normal bold 16px/30px "Maven Pro";
+}
+
+.nav-search input::placeholder {
+  color: var(--brown-alt);
+}
+
+.nav-search input:-ms-input-placeholder {
+  color: var(--brown-alt);
+}
+
+.nav-search input::-webkit-input-placeholder {
+  color: var(--brown-alt);
+}
+.nav-search button {
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 0;
+  color: var(--brown-alt);
+  background: transparent;
+}
+
+.nav-search button i {
+  font-size: 24px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 1.8rem;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font: normal normal 500 16px/18px "Maven Pro";
+}
+
+.nav-button i {
+  font-size: 32px;
+  padding-bottom: 0.2rem;
+}
